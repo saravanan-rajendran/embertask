@@ -1,0 +1,5 @@
+.main-cont-wrapper{border:1px solid #6e6e6e;width:215px;float: left;margin:10px;}
+.main-cont-wrapper h3{text-align:center}
+.main-cont-wrapper:hover{background-color:deepskyblue}
+.desc-container{display: inline-block;border: 1px solid #6e6e6e;width: 950px; margin: 15px auto;}
+body{width:960px;margin:0 auto;margin-top:50px;}

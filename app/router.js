@@ -7,6 +7,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('mainrouter', function() {
+    this.route('childrouter',{path:':childrouter_id'});
+  });
 });
 
 export default Router;
